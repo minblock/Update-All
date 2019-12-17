@@ -7,4 +7,4 @@ tar -xvf ogkush-0.17.10-x86_64-linux-gnu.tar.gz
 mkdir ~/bin/
 mv ogkush-0.17.10/bin/* ~/bin
 cd ../;rm -rf ~/temp420
-ogkushd -daemon
+~/bin/ogkushd -daemon
