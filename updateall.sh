@@ -19,3 +19,4 @@ bash updatemarycoin.sh
 bash updateripple.sh
 bash severeum.sh
 bash updatepgn.sh
+bash updateos.sh
