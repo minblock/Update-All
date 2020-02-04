@@ -16,3 +16,4 @@ bash updatelitecoin.sh
 bash updatepivx.sh
 bash updatekomodo.sh
 bash updatemarycoin.sh
+bash updateripple.sh
