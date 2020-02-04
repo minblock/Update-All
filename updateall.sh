@@ -18,3 +18,4 @@ bash updatekomodo.sh
 bash updatemarycoin.sh
 bash updateripple.sh
 bash severeum.sh
+bash updatepgn.sh
