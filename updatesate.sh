@@ -8,6 +8,6 @@ echo This should say OK if the file was unmodified during transmission
 tar -xvf satellite-0.17.1-aarch64-linux-gnu.tar.gz
 mkdir ~/bin
 mv satellite-0.17.1/bin/* ~/bin
-~/bin/picscoind -daemon
+~/bin/satellited -daemon
 cd ~
 rm -rf ~/tmp/1337/sate346
