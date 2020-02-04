@@ -6,4 +6,13 @@ bash updatelua.sh
 bash updatekush.sh
 bash updatemaji.sh
 bash updatepicscoin.sh
-bash updatesate.sh
+bash updatedoge.sh
+bash updatedash.sh
+bash updatebitcoin.sh
+bash updatelytix.sh
+bash updatebulwark.sh
+bash updatethereum.sh
+bash updatelitecoin.sh
+bash updatelitecoin.sh
+bash updatekomodo.sh
+bash updatemarycoin.sh
