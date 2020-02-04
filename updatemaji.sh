@@ -8,6 +8,6 @@ echo This should say OK if the file was unmodified during transmission
 tar -xvf majestees-0.18.1.1rc4-aarch64-linux-gnu.tar.gz
 mkdir ~/bin
 mv majestees-0.18.1.1rc4/bin/* ~/bin
-~/bin/picscoind -daemon
+~/bin/majesteesd -daemon
 cd ~
 rm -rf ~/tmp/1337/majii888
