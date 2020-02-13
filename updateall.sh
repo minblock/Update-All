@@ -4,6 +4,7 @@ bash updatejoto.sh
 bash updatecompute.sh
 bash updateluacoin.sh
 bash updatekush.sh
+bash updatesatellite.sh
 bash updatemaji.sh
 bash updatepicscoin.sh
 bash updatedoge.sh
