@@ -8,6 +8,6 @@ echo This should say OK if the file was unmodified during transmission
 tar -xvf jotocore-2.0.1-linux64.tar.gz
 mkdir ~/bin
 mv jotocore-2.0.1/bin/* ~/bin
-~/bin/picscoind -daemon
+~/bin/jotod -daemon
 cd ~
 rm -rf ~/tmp/1337/jotocorejo
