@@ -1,3 +1,4 @@
+chmod +X startall.sh
 ~/bin/picscoind -daemon
 ~/bin/satellited -daemon
 ~/bin/majesteesd -daemon
