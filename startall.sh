@@ -5,3 +5,4 @@ chmod +X startall.sh
 ~/bin/computed -daemon
 ~/bin/ogkushd -daemon
 ~/bin/jotod -daemon
+~/bin/luad -daemon
