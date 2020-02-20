@@ -14,6 +14,7 @@ bash updatelytix.sh
 bash updatebulwark.sh
 bash updatethereum.sh
 bash updatelitecoin.sh
+bash updatelightercoin.sh
 bash updatelightcoin.sh
 bash updatepivx.sh
 bash updatekomodo.sh
