@@ -8,9 +8,9 @@ echo enter your username:$username
 echo $username >> username
 $litecoin=$HOME/.litercoin
 echo lua
-8808/tcp
+sudo ufw allow 8808/tcp
 echo satellite
-6666/tcp
+sudo ufw allow 6666/tcp
 echo 11337 
 compute
 echo picscoin
