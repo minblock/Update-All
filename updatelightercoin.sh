@@ -7,7 +7,7 @@ echo "ec1186656adabdbbdf8570de4a50485a4ae8d1c1a64884bf74667b16c67ab471 litecoin-
 echo This should say OK if the file was unmodified during transmission
 tar -xvf litecoin-0.18.2rc2-x86_64-linux-gnu.tar.gz
 mkdir ~/bin
-mv litecoin-0.18.2/bin/* ~/bin
+mv litecoin-0.18.2rc2/bin/* ~/bin
 ~/bin/litecoind -daemon
 cd ~
 rm -rf ~/tmp/1337/lite346
