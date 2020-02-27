@@ -13,6 +13,7 @@ bash updatebitcoin.sh
 bash updatelytix.sh
 bash updatebulwark.sh
 bash updatethereum.sh
+bash installlitecoin.sh
 bash updatelitecoin.sh
 bash updatelightercoin.sh
 bash updatepivx.sh
