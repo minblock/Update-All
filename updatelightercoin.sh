@@ -8,6 +8,8 @@ echo This should say OK if the file was unmodified during transmission
 tar -xvf litecoin-0.18.2rc2-x86_64-linux-gnu.tar.gz
 mkdir ~/bin
 mv litecoin-0.18.2rc2/bin/* ~/bin
+mv ~/bin/litecoind ~/bin/litercoind
+mv ~/bin/litecoin-qt ~/bin/litercoin-qt
 ~/bin/litecoind -daemon
 cd ~
 rm -rf ~/tmp/1337/lite346
