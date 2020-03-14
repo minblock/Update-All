@@ -6,4 +6,4 @@ chmod +X startall.sh
 ~/bin/ogkushd -daemon
 ~/bin/jotod -daemon
 ~/bin/luad -daemon
-~/bin/litecoind -daemon
+~/bin/litercoind -daemon
