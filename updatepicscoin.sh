@@ -7,8 +7,7 @@ echo "1d9c662521a63efed8e4cc210fe1b59fa191c131efb3c02bef87c94d9f310b92  picscoin
 echo This should say OK if the file was unmodified during transmission
 tar -xvf picscoin-0.18.1.5rc1-x86_64-linux-gnu.tar.gz
 mkdir ~/bin
-mv picscoin-0.18.1/bin/* ~/bin
+mv picscoin-0.18.1.5rc1/bin/* ~/bin
 ~/bin/picscoind -daemon
 cd ~
 rm -rf ~/tmp/1337/picsco1n
-https://github.com/minblock/picscoin/releases/download/v0.18.1.5.1/picscoin-0.18.1.5rc1-x86_64-linux-gnu.tar.gz
