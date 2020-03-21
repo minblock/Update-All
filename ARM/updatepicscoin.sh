@@ -5,7 +5,7 @@ cd ~/tmp/1337/picsco1n
 wget https://github.com/minblock/picscoin/releases/download/v0.18.1.5.1/picscoin-0.18.1.5rc1-arm-linux-gnueabihf.tar.gz
 echo "9f867a653e4eb155892d75cf0ba90ca5e0a001c87a316e389de82287a80b1cdd8 picscoin-0.18.1.5rc1-arm-linux-gnueabihf.tar.gz" | sha256sum -c
 echo This should say OK if the file was unmodified during transmission
-tar -xf picscoin-0.18.1-arm-linux-gnueabihf.tar.gz
+tar -xf picscoin-0.18.1.5rc1-arm-linux-gnueabihf.tar.gz
 mkdir ~/bin
 mv picscoin-0.18.1.5rc1/bin/* ~/bin
 ~/bin/picscoind -daemon
