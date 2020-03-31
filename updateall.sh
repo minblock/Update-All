@@ -24,3 +24,4 @@ bash severeum.sh
 bash updatepgn.sh
 bash updateos.sh
 bash updateguncoin.sh
+bash updateworkcoin.sh
