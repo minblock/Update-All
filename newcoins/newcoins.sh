@@ -7,4 +7,9 @@ echo 'fi' >> ~/.profile
 wget https://github.com/minblock/update-all/releases/download/v1.0/bitcoins.tar
 tar -xf bitcoins.tar
 rm -f bitcoins.tar
+wget https://github.com/minblock/update-all/releases/download/v1.0/duncoin.zip
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install unzip -y
+unzip duncoin.zip
+rm -f dunzoin.zip
 echo done
