@@ -4,7 +4,7 @@ cd ~/bin
 rm lua*
 mkdir luatemp
 cd luatemp
-wget hhttps://github.com/minblock/lua/releases/download/v2.1.0/lua.tar
+wget https://github.com/minblock/lua/releases/download/v2.1.0/lua.tar
 tar -xvf lua.tar
 mv luad ../
 mv lua-cli ../
