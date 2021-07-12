@@ -1,6 +1,5 @@
 echo 0.18.8.8.9-RC1 Update
-mkdir ~/tmp/;mkdir ~/tmp/1337; mkdir ~/tmp/1337/wicsco1n
-cd ~/tmp/1337/wicsco1n
+mkdir ~/bin
 ~/bin/workcoin-cli stop
 
 wget  https://github.com/minblock/workcoin/releases/download/v0.16.5/workcoinv0.16.5.tar.gz
