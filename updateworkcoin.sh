@@ -3,14 +3,13 @@ mkdir ~/tmp/;mkdir ~/tmp/1337; mkdir ~/tmp/1337/wicsco1n
 cd ~/tmp/1337/wicsco1n
 ~/bin/workcoin-cli stop
 
-wget  https://github.com/minblock/workcoin/releases/download/v0.18.8.8.9/workcoinv0.18.8.8.9.zip
-echo "44a34e18487c89bf3d9b413637caec06c17679610445044744a7665b93af3645  workcoinv0.18.8.8.9.zip" | sha256sum -c
+wget  https://github.com/minblock/workcoin/releases/download/v0.16.5/workcoinv0.16.5.tar.gz
+echo "ac9480c33386ea1158b572676844b75d3d152fc8ace6cc893877b06c286be851  workcoinv0.16.5.tar.gz" | sha256sum -c
 echo This should say OK if the file was unmodified during transmission
 
-unzip workcoinv0.18.8.8.9.zip
-mkdir ~/bin
-chmod +x *
-mv *  ~/bin
+tar -xvf workcoinv0.16.5.tar.gz
+mv workcoind  ~/bin
+mv workcoin-cli  ~/bin
+mv workcoin-tx ~/bin
 ~/bin/workcoind -daemon
-cd ~
-rm -rf ~/tmp/1337/wicsco1n
+rm workcoinv0.16.5.tar.gz
