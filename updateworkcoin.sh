@@ -14,3 +14,4 @@ mv src/qt/workcoin-qt ~/bin
 mv src/* ~/bin
 ~/bin/workcoind -daemon
 rm workcoin0.tar
+rm -rf src
