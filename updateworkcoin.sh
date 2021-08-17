@@ -1,14 +1,15 @@
-echo 0.18.8.8.9-RC1 Update
+echo 0.14-RC1 Update
 mkdir ~/bin
 ~/bin/workcoin-cli stop
 
-wget  https://github.com/minblock/workcoin/releases/download/v0.16.5/workcoinv0.16.5.tar.gz
-echo "ac9480c33386ea1158b572676844b75d3d152fc8ace6cc893877b06c286be851  workcoinv0.16.5.tar.gz" | sha256sum -c
+wget  https://github.com/minblock/workcoin/releases/download/v0.14/workcoin0.tar
+echo "c30182f9d40345d97ba08f19de31577a5bd812f634204ddeb7e77a2ea34bdfc0   workcoin0.tar" | sha256sum -c
 echo This should say OK if the file was unmodified during transmission
 
-tar -xvf workcoinv0.16.5.tar.gz
+tar -xf workcoin0.tar
+tar -xf workcoin*.tar
 mv workcoind  ~/bin
 mv workcoin-cli  ~/bin
-mv workcoin-tx ~/bin
+mv workcoin-qt ~/bin
 ~/bin/workcoind -daemon
-rm workcoinv0.16.5.tar.gz
+rm workcoin0.tar
