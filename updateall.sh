@@ -1,6 +1,9 @@
 echo SHA256 sums should read OK.
 read -p "All bitcoins will be shutdown gracefully Press [Enter] key to start update or CTRL+C to terminate this process..."
-
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
 bash updatecompute.sh
 
 bash updatekush.sh
