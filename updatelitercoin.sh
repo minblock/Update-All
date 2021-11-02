@@ -5,4 +5,4 @@ echo This should say OK if the file was unmodified during transmission
 tar -xvf Litercoin-v0.18.1.tar.gz
 rm -rf  Litercoin-v0.18.1.tar.gz
 sudo mv litercoind /usr/local/bin
-sudo mv litercoin-cli /usr/local/bi
+sudo mv litercoin-cli /usr/local/bin
