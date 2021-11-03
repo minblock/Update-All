@@ -10,6 +10,7 @@ bash updatekush.sh
 bash updatesatellite.sh
 bash updatemaji.sh
 bash updatepicscoin.sh
+bash updatetelnetcoin.sh
 bash updatedoge.sh
 bash updatedash.sh
 bash updatebitcoin.sh
