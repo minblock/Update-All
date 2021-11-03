@@ -4,5 +4,5 @@ echo "5a91f1f79d168bb710bebe333e32f76289c0e5812423a7f9e0c9812e7eab747b  Workcoin
 echo This should say OK if the file was unmodified during transmission
 tar -xvf Workcoin-v0.18.1.tar.gz
 rm -rf  Workcoin-v0.18.1.tar.gz
-mv workcoind ~/bin
-mv workcoin-cli ~/bin
+sudo mv workcoind /usr/local/bin
+sudo mv workcoin-cli /usr/local/bin
