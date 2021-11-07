@@ -1,13 +1,14 @@
 echo 0.18.1 Update
 mkdir ~/tmp/;mkdir ~/tmp/1337; mkdir ~/tmp/1337/sate346
 cd ~/tmp/1337/sate346
-~/bin/satellite-cli stop
-wget https://github.com/minblock/satellite/releases/download/v0.17.1.3/satellite-0.17.1-x86_64-linux-gnu.tar.gz
-echo "0289dcfd455e81f491856a588cb551c48acd85248c55f29c854514b4973f60a4 satellite-0.17.1-x86_64-linux-gnu.tar.gz" | sha256sum -c
+satellite-cli stop
+wget https://github.com/minblock/satellite/releases/download/v0.17.1.8/satellite-v0.18.1.7.tar.gz
+echo "792dd6736fa19aa66d528c29c5df697034195d287f9866c1d7da86217673f930 satellite-v0.18.1.7.tar.gz" | sha256sum -c
 echo This should say OK if the file was unmodified during transmission
-tar -xvf satellite-0.17.1-x86_64-linux-gnu.tar.gz
+tar -xvf satellite-v0.18.1.7.tar.gz
 mkdir ~/bin
-mv satellite-0.17.1/bin/* ~/bin
-~/bin/satellited -daemon
+sudo mv satellited /usr/local/bin
+sudo mv satellite-cli /usr/local/bin
+satellited -daemon
 cd ~
 rm -rf ~/tmp/1337/sate346
