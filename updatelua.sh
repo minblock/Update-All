@@ -4,5 +4,6 @@ echo "c21bd57573a376d82c432a6dc5b7c09109f14a6ba8b765a0732f06de7ab5f7d9  Luascoin
 echo This should say OK if the file was unmodified during transmission
 tar -xvf Luascoin-2.0.0.tar.gz
 rm -rf  Luascoin-2.0.0.tar.gz
+chmod +x luascoind;chmod +x luascoin-cli
 sudo mv luascoind /usr/local/bin
 sudo mv luascoin-cli /usr/local/bin
