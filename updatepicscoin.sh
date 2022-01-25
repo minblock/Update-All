@@ -1,13 +1,13 @@
 echo 0.18.15RC Update
 mkdir ~/tmp/;mkdir ~/tmp/1337; mkdir ~/tmp/1337/picsco1n
 cd ~/tmp/1337/picsco1n
-~/bin/picscoin-cli stop
-wget https://github.com/minblock/picscoin/releases/download/v0.18.1.5.1/picscoin-0.18.1.5rc1-x86_64-linux-gnu.tar.gz
-echo "1d9c662521a63efed8e4cc210fe1b59fa191c131efb3c02bef87c94d9f310b92  picscoin-0.18.1.5rc1-x86_64-linux-gnu.tar.gz" | sha256sum -c
+picscoin-cli stop
+wget https://picsco.in/picscoin.tar
+echo "9f370b04ccdb1119093bac0f1d37b9d7e3718cf43b8fa6eaf250b516ce45ccfc  picscoin.tar" | sha256sum -c
 echo This should say OK if the file was unmodified during transmission
-tar -xvf picscoin-0.18.1.5rc1-x86_64-linux-gnu.tar.gz
+tar -xvf picscoin.tar
 mkdir ~/bin
-mv picscoin-0.18.1.5rc1/bin/* ~/bin
-~/bin/picscoind -daemon
-cd ~
-rm -rf ~/tmp/1337/picsco1n
+sudo mv picscoind /usr/local/bin
+sudo mv picscoin-cli /usr/local/bin
+picscoind -daemon
+rm -f picscoin.tar
