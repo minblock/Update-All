@@ -1,3 +1,5 @@
-read -p "Only for a fresh debian install press any key if it is"
+echo Only for a fresh debian install it adds the sysutils into the path
+
 PATH="/usr/sbin:$PATH"
+
 echo done
